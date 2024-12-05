@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <meta http-equiv="refresh" content="10;url=https://www.instagram.com/side_holes_design/?hl=en">
+    <script type="text/javascript">
+        setTimeout(function(){
+            window.location.href = "https://www.instagram.com/side_holes_design/?hl=en";
+        }, 10000);  // Redirect after 10 seconds
+    </script>
     <style>
         body {
             text-align: center;
@@ -17,18 +22,27 @@
             height: 100vh;
             background-color: #f4f4f4;
         }
-        video {
+        iframe {
             max-width: 100%;
             height: auto;
+            border: none;
         }
     </style>
 </head>
 <body>
     <div>
-        <video controls autoplay>
-            <source src="https://www.youtube.com/watch?v=YBAm5OD39e0" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <h1>Watch this short video!</h1>
+        
+        <!-- YouTube Embed Code -->
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/YBAm5OD39e0" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
+
         <p>You’ll be redirected to our Instagram page shortly.</p>
     </div>
 </body>
